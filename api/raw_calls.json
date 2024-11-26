@@ -1,0 +1,26 @@
+{
+    "calls": {
+        "AAE": {
+            "data_type": "text",
+            "get_headers": true,
+            "initialized": true,
+            "method": "get",
+            "name": "Shorten URL",
+            "params": {
+                "AAF": {
+                    "key": "url",
+                    "private": true,
+                    "value": "http://www.example.com/"
+                }
+            },
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1527372518339x790028373842198500.plugin_api.AAE",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAE\":{\"caption\":\"Shorten URL\",\"fields\":{\"_p_body\":{\"ret_value\":\"text\",\"caption\":\"body\",\"sample_value\":\"https://tinyurl.com/d9kp\",\"path\":[\"body\"]},\"_p_error.status_code\":{\"ret_value\":\"number\",\"caption\":\"error status_code\",\"sample_value\":200,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_value\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"OK\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_value\":\"text\",\"caption\":\"error body\",\"sample_value\":\"\\\"https://tinyurl.com/d9kp\\\"\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_value\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]},\"_p_headers.date\":{\"ret_value\":\"text\",\"caption\":\"headers date\",\"sample_value\":\"Mon, 25 Sep 2023 13:45:18 GMT\",\"path\":[\"headers\",\"date\"]},\"_p_headers.content-type\":{\"ret_value\":\"text\",\"caption\":\"headers content-type\",\"sample_value\":\"text/plain; charset=UTF-8\",\"path\":[\"headers\",\"content-type\"]},\"_p_headers.transfer-encoding\":{\"ret_value\":\"text\",\"caption\":\"headers transfer-encoding\",\"sample_value\":\"chunked\",\"path\":[\"headers\",\"transfer-encoding\"]},\"_p_headers.connection\":{\"ret_value\":\"text\",\"caption\":\"headers connection\",\"sample_value\":\"keep-alive\",\"path\":[\"headers\",\"connection\"]},\"_p_headers.cache-control\":{\"ret_value\":\"text\",\"caption\":\"headers cache-control\",\"sample_value\":\"public, max-age=86400\",\"path\":[\"headers\",\"cache-control\"]},\"_p_headers.x-content-type-options\":{\"ret_value\":\"text\",\"caption\":\"headers x-content-type-options\",\"sample_value\":\"nosniff\",\"path\":[\"headers\",\"x-content-type-options\"]},\"_p_headers.x-xss-protection\":{\"ret_value\":\"text\",\"caption\":\"headers x-xss-protection\",\"sample_value\":\"1; mode=block\",\"path\":[\"headers\",\"x-xss-protection\"]},\"_p_headers.cf-cache-status\":{\"ret_value\":\"text\",\"caption\":\"headers cf-cache-status\",\"sample_value\":\"HIT\",\"path\":[\"headers\",\"cf-cache-status\"]},\"_p_headers.age\":{\"ret_value\":\"text\",\"caption\":\"headers age\",\"sample_value\":\"461\",\"path\":[\"headers\",\"age\"]},\"_p_headers.last-modified\":{\"ret_value\":\"text\",\"caption\":\"headers last-modified\",\"sample_value\":\"Mon, 25 Sep 2023 13:37:37 GMT\",\"path\":[\"headers\",\"last-modified\"]},\"_p_headers.expires\":{\"ret_value\":\"text\",\"caption\":\"headers expires\",\"sample_value\":\"Tue, 26 Sep 2023 13:45:18 GMT\",\"path\":[\"headers\",\"expires\"]},\"_p_headers.vary\":{\"ret_value\":\"text\",\"caption\":\"headers vary\",\"sample_value\":\"Accept-Encoding\",\"path\":[\"headers\",\"vary\"]},\"_p_headers.server\":{\"ret_value\":\"text\",\"caption\":\"headers server\",\"sample_value\":\"cloudflare\",\"path\":[\"headers\",\"server\"]},\"_p_headers.cf-ray\":{\"ret_value\":\"text\",\"caption\":\"headers cf-ray\",\"sample_value\":\"80c3b4f33d37308e-SEA\",\"path\":[\"headers\",\"cf-ray\"]},\"_p_headers.content-encoding\":{\"ret_value\":\"text\",\"caption\":\"headers content-encoding\",\"sample_value\":\"gzip\",\"path\":[\"headers\",\"content-encoding\"]},\"_p_headers.alt-svc\":{\"ret_value\":\"text\",\"caption\":\"headers alt-svc\",\"sample_value\":\"h3=\\\":443\\\"; ma=86400\",\"path\":[\"headers\",\"alt-svc\"]}}}}",
+            "url": "https://tinyurl.com/api-create.php",
+            "wrap_error": true
+        }
+    },
+    "human": "TinyURL"
+}
